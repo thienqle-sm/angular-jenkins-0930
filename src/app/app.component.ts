@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-unit-test';
+
+  content = "This is a content!"
+  hide = true;
+
+  toggle(){
+    this.hide = !this.hide;
+  }
 }
